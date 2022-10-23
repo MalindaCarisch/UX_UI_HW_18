@@ -1,0 +1,30 @@
+#mainNav {
+    display: flex;
+    list-style-type: none;
+    padding: 30px;
+    justify-content: flex-end;
+}
+
+.navList {
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.aboutMe {
+    background-color: rgba(183, 183, 183, 0.618);
+    padding: 40px;
+    margin: 70px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+

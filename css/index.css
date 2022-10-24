@@ -75,6 +75,11 @@
     display: grid;
 }
 
+.toolsList {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
 .flexContainer {
     display: flex;
 }
@@ -86,6 +91,7 @@
     height: 290px;
     background-color:rgba(57, 156, 188, 0.326);
     color: black;
+    text-align: center;
 }
 
 .justifyContent {
@@ -97,12 +103,13 @@
     color: white;
     display: flex;
     padding: 20px;
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
     list-style-type: none;
     justify-content: flex-start;
 }
 
-@media only screen and (max-width: 6000) {
+@media only screen and (max-width: 600) {
     .workGrid {
         margin: 0px 5%;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -116,4 +123,7 @@
         "frontEnd" 
         "tools";  
     }
+    .flexContainer {
+        display: flex;
+    }    
 }
